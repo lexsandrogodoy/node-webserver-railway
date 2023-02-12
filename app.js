@@ -20,7 +20,7 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     //res.sendFile( __dirname + '/public/index.html')
     res.render('home',{
-        nombre: 'Lexsandro Godoy',
+        nombre: 'Lexsandro Godoy G',
         titulo: 'Curso Node'
     });
 })
